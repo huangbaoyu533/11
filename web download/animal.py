@@ -12,3 +12,14 @@ def run_twice(animal) :
     animal.run()
 a=Animal()
 d=Dog()
+c=Cat()
+
+print("a isAnimal?",isinstance(a,Animal))
+print("a isAnimal?",isinstance(a,Dog))
+print("a isAnimal?",isinstance(a,Cat))
+
+print("d isAnimal?",isinstance(d,Animal))
+print("d isAnimal?",isinstance(d,Dog))
+print("d isAnimal?",isinstance(d,Cat))
+
+run_twice(c)
