@@ -12,4 +12,3 @@ def run_twice(animal) :
     animal.run()
 a=Animal()
 d=Dog()
-c=Cat()
