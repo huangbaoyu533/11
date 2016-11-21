@@ -22,4 +22,3 @@ print("d isAnimal?",isinstance(d,Animal))
 print("d isAnimal?",isinstance(d,Dog))
 print("d isAnimal?",isinstance(d,Cat))
 
-run_twice(c)
